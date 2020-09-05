@@ -11,6 +11,10 @@ This projects provides a [single header file](dbg.h) with a `dbg(…)`
 macro that can be used in all circumstances where you would typically write
 `printf("…", …)` or `std::cout << …`. But it comes with a few extras.
 
+## Custom
+
+* Add hexdump
+
 ## Examples
 
 ``` c++
@@ -37,6 +41,9 @@ int main() {
   dbg(numbers);  // [example.cpp:21 (main)] numbers = {7, 13, 42} (size: 3) (std::vector<int>)
 
   dbg("this line is executed");  // [example.cpp:23 (main)] this line is executed
+
+  //custom
+  hexdump(message.c_str(),message.length(),std::cout);  // 0000 : hello            68 65 6C 6C 6F
 
   factorial(4);
 
