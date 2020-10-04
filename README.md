@@ -14,7 +14,7 @@ macro that can be used in all circumstances where you would typically write
 ## Custom
 
 * Add hexdump
-* delete tests folder
+* delete tests folder and catch2 submodules
 
 ## Examples
 
