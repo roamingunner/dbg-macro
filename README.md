@@ -14,6 +14,7 @@ macro that can be used in all circumstances where you would typically write
 ## Custom
 
 * Add hexdump
+* delete tests folder
 
 ## Examples
 
